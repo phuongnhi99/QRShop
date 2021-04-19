@@ -1,0 +1,191 @@
+body {
+    font-family: Open Sans;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.header {
+    box-shadow: 0px 3px 15px #00000029;
+    font-family: Bitter;
+}
+
+.header .logo {
+    width: 100px;
+    margin-right: 40px;
+}
+
+.header .nav-item {
+    padding-right: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header .nav-link {
+    color: #3c4f76 !important;
+}
+
+.header .nav-link:hover {
+    color: #3F7CAB !important;
+    border-bottom: 1px solid #3F7CAB;
+}
+
+.login h3 {
+    color: #3c4f76;
+}
+
+.login .btn-form {
+    background-color: #3c4f76;
+    border: 0;
+    height: 40px;
+    width: 200px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.register h3 {
+    color: #3c4f76;
+}
+
+.register .btn-form {
+    background-color: #3c4f76;
+    border: 0;
+    height: 40px;
+    width: 200px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.product-item .card {
+    border: 0;
+    box-shadow: 0px 1px 3px #00000029;
+}
+
+.product-item .card:hover {
+    box-shadow: 0px 3px 15px #00000029;
+}
+
+.product-item .card .card-body {
+    background-color: #EEF4F9;
+}
+
+.product-item .card .product-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c4f76;
+    text-transform: capitalize;
+}
+
+.product-item .card .product-description {
+    color: #414141;
+}
+
+.product-item .card .product-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3c4f76;
+    text-transform: capitalize;
+}
+
+.product-item .card .btn-add-to-card {
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #3F7CAB;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 5px #00000029;
+}
+
+.banner {
+    background-color: #EEF4F9;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0px 1px 5px #00000029;
+}
+
+.banner .banner-text-1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #3c4f76;
+}
+
+.banner .banner-text-2 {
+    background-color: #3F7CAB;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: -12deg;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    display: inline-block;
+}
+
+.banner .banner-text-3 {
+    font-size: 20px;
+    color: #3c4f76;
+}
+
+.footer {
+    background-color: #3c4f76;
+    bottom: 0;
+}
+
+.footer .brand-name {
+    font-family: Bitter;
+    font-size: 32px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer .brand-description {
+    color: #FFFFFF;
+}
+
+.footer .social-icon {
+    color: #FFFFFF;
+}
+
+.footer .social-icon i {
+    padding-right: 30px;
+}
